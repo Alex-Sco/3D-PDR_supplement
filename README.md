@@ -22,12 +22,12 @@ sys
 There are two ways to use it: 
 I. Input parameters externally:
 
-In python3 enviroments: 
+In python3 environment: 
 ```
 python3 read_chemistry.py [Species name] [model1 name] [model2 name] [model3 name] [Figure name] 
 ```
 
-or, in Ipython3 environment:
+or, in the Ipython3 environment:
 ```
 In [1]: run read_chemistry.py [Species name] [model1 name] [model2 name] [model3 name] [Figure name]
 ```
@@ -40,21 +40,21 @@ Step 1. Create a directory named 'chemical_colors' (here in the local directory)
 mkdir chemical colors
 ```
 
-Step 2. Check the model path and the color file path in the script (go into the script and modify the path if needed)
+Step 2. Check the model path and the color file path in the script (go into the script and modify the path if you need)
 
 ``` 
 colorpwd="./chemical_colors/"   #the directory where the color-reactions file is stored.
-modelpwd="./" #the directory where the model results is stored. 
+modelpwd="./" #the directory where the model results are stored. 
 ```
 
-Step 3. Run the script (here plot reactions of CO as a example)
+Step 3. Run the script (here plot reactions of CO as an example)
 
 ```
 python3 read_chemistry.py "CO" "O0C0D0_15" "O0C1D0_15" "O0CupD0_15" "O0models"
 ```
 
 Then we will get:
-Two files named 'For_reaction_colors_CO.dat' and 'Des_reaction_colors_CO.dat' in the chemical_colors directory, storing the information of CO formation/destruction reactions and their corresponding colors.
+Two files named 'For_reaction_colors_CO.dat' and 'Des_reaction_colors_CO.dat' in the chemical_colors directory, store the information on CO formation/destruction reactions and their corresponding colors.
 One file named 'CO_O0models.pdf' in the local directory, shows the comparison of CO formation and destruction reactions between the three models.
 
 
