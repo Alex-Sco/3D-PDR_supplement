@@ -54,8 +54,8 @@ python3 read_chemistry.py "CO" "O0C0D0_15" "O0C1D0_15" "O0CupD0_15" "O0models"
 ```
 
 Then we will get:
-Two files named 'For_reaction_colors_CO.dat' and 'Des_reaction_colors_CO.dat' in the chemical_colors directory, store the information on CO formation/destruction reactions and their corresponding colors.
-One file named 'CO_O0models.pdf' in the local directory, shows the comparison of CO formation and destruction reactions between the three models.
+* Two files named 'For_reaction_colors_CO.dat' and 'Des_reaction_colors_CO.dat' in the chemical_colors directory, store the information on CO formation/destruction reactions and their corresponding colors.
+* One file named 'CO_O0models.pdf' in the local directory, shows the comparison of CO formation and destruction reactions between the three models.
 
 
 ### Current limitations:
