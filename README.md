@@ -7,11 +7,11 @@
 1. Python3
 
 2. The following Python3 packages:
-numpy
-pandas
-matplotlib
-os
-sys
+numpy \\
+pandas \\
+matplotlib \\
+os \\
+sys \\
 
 3. A directory named 'chemical_colors', aligned with the colorpwd in the procedure (this directory name can be modified as needed).
 
