@@ -37,7 +37,7 @@ For example, if we want to compare three model results named "O0C0D0_15.chemistr
 Step 1. Create a directory named 'chemical_colors' (here in the local directory)
 
 ```
-mkdir chemical colors
+mkdir chemical_colors
 ```
 
 Step 2. Check the model path and the color file path in the script (go into the script and modify the path if you need)
